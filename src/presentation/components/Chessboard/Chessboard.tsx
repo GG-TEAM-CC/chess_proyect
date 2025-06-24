@@ -9,10 +9,11 @@ import {
 import { Piece, Position } from "../../../domain/models";
 
 interface Props {
+  playMove: (piece: Piece, position: Position) => boolean;
   pieces: Piece[];
 }
 
-export default function Chessboard({ pieces }: Props) {
+export default function Chessboard({ playMove, pieces }: Props) {
   const [activePiece, setActivePiece] = useState<HTMLElement | null>(null);
   const [grabPosition, setGrabPosition] = useState<Position>(
     new Position(-1, -1)
