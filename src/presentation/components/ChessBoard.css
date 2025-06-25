@@ -1,0 +1,32 @@
+.chess-board {
+  display: grid;
+  grid-template-columns: repeat(8, 60px);
+  grid-template-rows: repeat(8, 60px);
+  width: fit-content;
+  border: 2px solid #afb9c5;
+}
+
+.square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.light {
+  background-color: #afb9c5;
+}
+
+.dark {
+  background-color: #484e52;
+}
+
+.selected {
+  outline: 3px solid #e3cdb3;
+}
+
+.piece {
+  user-select: none;
+  -webkit-user-select: none; /* Compatibilidad con Safari */
+}
