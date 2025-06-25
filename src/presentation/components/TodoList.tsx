@@ -1,5 +1,4 @@
 import type { Todo } from '../../domain/models/Todo.ts';
-
 interface TodoListProps {
   todos: Todo[];
 }

@@ -1,4 +1,4 @@
-import './landing.css';
+import './../../styles/landing.css';
 
 export const Header = () => (
   <header className="header">
