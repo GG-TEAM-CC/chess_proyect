@@ -3,6 +3,7 @@ import { HeroSection } from '../components/HeroSection';
 import { HowToUse } from '../components/HowToUse';
 import { GameModes } from '../components/GameModes';
 import { ChessBoard } from '../components/ChessBoard';
+import './LandingPage.css'
 
 export const LandingPage = () => (
   <>
@@ -11,8 +12,10 @@ export const LandingPage = () => (
       <HeroSection />
       <HowToUse />
       <GameModes />
-      <ChessBoard />
     </main>
+    <div className='asd'>
+      <ChessBoard />
+    </div>
 
   </>
 );

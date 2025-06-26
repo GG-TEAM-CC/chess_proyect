@@ -1,0 +1,6 @@
+.asd {
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+  align-items: center;     /* centra verticalmente (opcional) */
+  padding: 40px;           /* espaciado opcional */
+}
