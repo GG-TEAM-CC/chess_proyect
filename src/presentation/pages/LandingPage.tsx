@@ -9,7 +9,10 @@ export const LandingPage = () => (
   <>
     <Header />
     <main>
-      <HeroSection />
+      
+      <div className='hero-container'>
+        <HeroSection />
+      </div>
       <HowToUse />
       <GameModes />
     </main>

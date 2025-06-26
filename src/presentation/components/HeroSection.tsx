@@ -1,3 +1,5 @@
+import './HeroSection.css';
+
 export const HeroSection = () => (
   <section className="section hero">
     <h1>Bienvenido a Chess Project</h1>
