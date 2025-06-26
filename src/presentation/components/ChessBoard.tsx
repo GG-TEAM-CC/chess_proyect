@@ -2,7 +2,7 @@ import { useState } from 'react';
 import type { Piece } from '../../domain/models/Piece';
 import { isValidMove } from '../../domain/services/MoveLogic';
 import './ChessBoard.css';
-
+// Tablero de ajedrez
 const initialBoard: (Piece | null)[][] = Array(8).fill(null).map(() => Array(8).fill(null));
 
 // Inicializar peones
