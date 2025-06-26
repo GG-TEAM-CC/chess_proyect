@@ -27,6 +27,6 @@
 }
 
 .piece {
-  user-select: none;
+  user-select: none;  
   -webkit-user-select: none; /* Compatibilidad con Safari */
 }
