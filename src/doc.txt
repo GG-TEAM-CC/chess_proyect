@@ -1,2 +1,6 @@
 test update 3
 testeando rama desde vsc plugin
+---
+rama 2 07072025
+---
+npm run dev
