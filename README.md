@@ -1,4 +1,5 @@
 [![Continuous Integration Workflow](https://github.com/GG-TEAM-CC/react-template/actions/workflows/integration.yml/badge.svg)](https://github.com/GG-TEAM-CC/react-template/actions/workflows/integration.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=GG-TEAM-CC_chess_proyect&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=GG-TEAM-CC_chess_proyect)
 
 # React + TypeScript + Vite
 
