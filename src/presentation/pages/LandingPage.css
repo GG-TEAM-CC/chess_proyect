@@ -1,0 +1,19 @@
+.asd {
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+  align-items: center;     /* centra verticalmente (opcional) */
+  padding: 40px;           /* espaciado opcional */
+}
+.hero-container {
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #d03636;*/
+  color: #ddf9a1;
+	background: url(../../assets/bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+  min-height: 100vh;
+}

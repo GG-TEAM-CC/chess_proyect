@@ -1,0 +1,13 @@
+test update 3
+testeando rama desde vsc plugin
+---
+rama 2 07072025
+---
+npm run dev
+-----
+testeando nueva rama interface experimental
+-----
+git checkout rama2                # Rama estable
+git pull origin rama2             # Asegurar que la rama este actualizada
+git checkout -b frontend-testing  # Creamos la nueva rama experimental
+git push -u origin frontend-testing  # Subimos la rama a GitHub
